@@ -207,23 +207,23 @@
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
 
-"@nrwl/nx@0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.7.4.tgz#5e5e08abc2f4ceb1a3e77939b4207db5c799ea9b"
+"@nrwl/nx@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.8.0.tgz#8747fde823de792a77505cd96c4dcfa0fe4a3500"
   dependencies:
     jasmine-marbles "0.2.0"
 
-"@nrwl/schematics@0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.7.4.tgz#e0116fecc586c2b2499334ceb8709511ee4e94df"
+"@nrwl/schematics@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.8.0.tgz#3a76268d50e2fc5debdbbde9d131f622a22d4def"
   dependencies:
     app-root-path "^2.0.1"
     semver "5.4.1"
     tmp "0.0.33"
 
-"@schematics/angular@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-0.4.0.tgz#b3d7588c4987da9cd17f69beac856c667e0932a8"
+"@schematics/angular@0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-0.4.2.tgz#52d44cc5dff69e6b737010c7743cf21fd319c602"
   dependencies:
     typescript "~2.6.2"
 

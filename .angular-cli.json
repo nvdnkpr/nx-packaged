@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
     "name": "nx-packaged",
-    "latestMigration": "20180130-angular-devkit-schematics"
+    "latestMigration": "20180227-cleanup-scripts"
   },
   "apps": [
     {
