@@ -16,6 +16,11 @@
       "pinVersions": false
     },
     {
+      "packagePattern": "^@ngrx\/.*",
+      "groupName": "ngrx",
+      "pinVersions": false
+    },
+    {
       "packagePattern": "^@nrwl\/.*",
       "groupName": "nrwl",
       "pinVersions": false
