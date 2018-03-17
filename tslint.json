@@ -111,8 +111,15 @@
     "nx-enforce-module-boundaries": [
       true,
       {
-        "lazyLoad": [],
-        "allow": []
+        "allow": [],
+        "depConstraints": [
+          {
+            "sourceTag": "*",
+            "onlyDependOnLibsWithTags": [
+              "*"
+            ]
+          }
+        ]
       }
     ],
     "deprecation": {

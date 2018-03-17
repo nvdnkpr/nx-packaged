@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
     "name": "nx-packaged",
-    "latestMigration": "20180227-cleanup-scripts"
+    "latestMigration": "20180313-add-tags"
   },
   "apps": [
     {
@@ -28,7 +28,8 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "tags": []
     },
     {
       "name": "one-app-from-packages",
@@ -53,21 +54,24 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "tags": []
     },
     {
       "name": "one-lib",
       "root": "libs/one-lib/src",
       "test": "../../../test.js",
       "appRoot": "",
-      "tsconfig": "tsconfig.app.json"
+      "tsconfig": "tsconfig.app.json",
+      "tags": []
     },
     {
       "name": "two-lib",
       "root": "libs/two-lib/src",
       "test": "../../../test.js",
       "appRoot": "",
-      "tsconfig": "tsconfig.app.json"
+      "tsconfig": "tsconfig.app.json",
+      "tags": []
     }
   ],
   "e2e": {
