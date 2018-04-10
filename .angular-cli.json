@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
     "name": "nx-packaged",
-    "latestMigration": "20180313-add-tags"
+    "latestMigration": "20180405-add-workspace-schematic-command"
   },
   "apps": [
     {

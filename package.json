@@ -7,7 +7,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "./node_modules/.bin/nx lint && ng lint",
     "e2e": "ng e2e",
     "format": "./node_modules/.bin/nx format write",
     "build:libs": "yarn libs:one-lib:build && yarn libs:two-lib:build && yarn libs:three-lib:build",
@@ -23,7 +23,10 @@
     "libs:three-lib:build": "ts-node libs/three-lib/build.ts",
     "update": "./node_modules/.bin/nx update",
     "update:check": "./node_modules/.bin/nx update check",
-    "update:skip": "./node_modules/.bin/nx update skip"
+    "update:skip": "./node_modules/.bin/nx update skip",
+    "dep-graph": "./node_modules/.bin/nx dep-graph",
+    "affected:dep-graph": "./node_modules/.bin/nx affected dep-graph",
+    "workspace-schematic": "./node_modules/.bin/nx workspace-schematic"
   },
   "private": true,
   "dependencies": {
