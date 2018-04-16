@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { TwoLibModule } from '@nx-packaged/two-lib';
 
 import { AppComponent } from './app.component';
 
@@ -9,6 +10,7 @@ describe('AppComponent', () => {
   beforeEach(
     async(() => {
       TestBed.configureTestingModule({
+        imports: [TwoLibModule],
         declarations: [AppComponent]
       }).compileComponents();
     })
