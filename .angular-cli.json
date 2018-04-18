@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
     "name": "nx-packaged",
-    "latestMigration": "20180405-add-workspace-schematic-command"
+    "latestMigration": "20180313-add-tags"
   },
   "apps": [
     {
@@ -43,7 +43,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../../test.js",
-      "tsconfig": "tsconfig.packages.json",
+      "tsconfig": "tsconfig.app.json",
       "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
